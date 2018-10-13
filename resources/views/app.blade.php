@@ -18,7 +18,7 @@
 <body>
     @include('inc.navbar')
     <div class="container">
-    <h1 class="my-4 text-center text-lg-left">TV Programmes from Port</h1>
+    <h1 class="my-4 text-center text-lg-left">TV Programmes from port.hu</h1>
         @yield('content')
     </div>
 </body>

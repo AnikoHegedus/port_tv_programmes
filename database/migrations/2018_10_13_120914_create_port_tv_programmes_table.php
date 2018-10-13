@@ -19,6 +19,7 @@ class CreatePortTvProgrammesTable extends Migration
             $table->string('start');
             $table->string('title');
             $table->string('description');
+            $table->string('date');
             $table->string('age_limit');
             $table->timestamps();
         });

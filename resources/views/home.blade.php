@@ -12,6 +12,6 @@
 </div>
 
 
-<h3 class="text-center">{{ "Choose a date" }}</h3>
+<h3 class="text-center">{{ isset($message) ? $message : "Choose a date" }}</h3>
 
 @endsection
